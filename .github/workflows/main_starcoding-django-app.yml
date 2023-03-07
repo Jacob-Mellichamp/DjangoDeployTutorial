@@ -59,5 +59,4 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'starcoding-django-app'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C59E3B466794E3FBE39157572DAFC42 }}
